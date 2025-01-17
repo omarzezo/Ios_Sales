@@ -1,4 +1,4 @@
-package com.example.ios_manager2
+package com.sales_ios.sales_ios
 
 import io.flutter.embedding.android.FlutterActivity
 
