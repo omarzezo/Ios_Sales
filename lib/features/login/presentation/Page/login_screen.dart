@@ -54,9 +54,9 @@ class LoginScreen extends ConsumerWidget {
                         )
                     ),
                     Positioned(
-                        top:28.h, left:((SharedPrefHelper.sp.getString('lang')??'en')=='en')?10.w:0,
-                        right:((SharedPrefHelper.sp.getString('lang')??'en')=='en')?0:2.w,
-                        child:PText(title:AppLocalizations.of(context)!.login,size:PSize.veryVeryLarge,fontColor:AppColors.white,)),
+                        top:30.h, left:((SharedPrefHelper.sp.getString('lang')??'en')=='en')?10.w:0,
+                        right:((SharedPrefHelper.sp.getString('lang')??'en')=='en')?13:2.w,
+                        child:PText(title:AppLocalizations.of(context)!.login,size:PSize.veryLarge,fontColor:AppColors.white,)),
                     // if(allDbResponseModel!=null)Text(allDbResponseModel.toString()),
                     Positioned(top:35.h, right: 0, bottom: 0, child: LayerOne()),
                     Positioned(top:39.h, right: 0, bottom: 28, child: LayerTwo()),
